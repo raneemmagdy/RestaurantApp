@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: "Gupter", serif;
+}
+
+/*********************** Home************************/
+#Home .navbar{
+    padding-inline: 30px;
+}
+#Home .navbar .logo{
+    
+    float: left;
+    width: 10%;
+    padding-top: 20px;
+}
+#Home .navbar .logo img{
+    width: 100%;
+}
+
+#Home .navbar .links  {
+    padding-top: 30px;
+    float: right;
+}
+#Home .navbar .links a{
+   padding: 30px;
+   color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+.clear-fix{
+    clear: both;
+}
+
+
+#Home{
+    background-image: url('images/h3.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#Home .caption{
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+#Home .caption h1{
+    
+    font-size: 50px;
+    padding-block: 10px;
+    
+}
+#Home .caption p{
+    padding-block: 10px;
+   
+}
+
+#Home .caption .btn1,#Home .caption .btn2{
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#Home .caption .btn1{
+    background-color: #e5989b;
+}
+
+/*********************** Home************************/
+
+/*********************** About************************/
+#About .image{
+    width: 50%;
+    float: left;
+}
+#About .content{
+   width: 50%;
+    float: right;
+}
+#About .content span{
+    color: #b5838d;
+    font-size: 30px;
+}
+#About .content h2{
+    padding-bottom: 10px;
+}
+.container{
+    padding: 80px;
+    width: 80%;
+    
+}
+
+
+
+/*********************** About************************/
+
+
+/*********************** Meals************************/
+#Meals{
+    background-color: #f8edeb;
+}
+
+
+#Meals .container span{
+    color: #b5838d;
+    font-size: 50px;
+    
+}
+#Meals .container h2{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+
+
+#Meals .container .meal{
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+#Meals .container .meal img{
+    width: 90%;
+    border-radius: 30px;
+   
+}
+#Meals .container h3{
+    padding: 20px;
+}
+/*********************** Meals************************/
+
+
+/*********************** ContactUs************************/
+
+#contactUs .container span{
+    color: #b5838d;
+    font-size: 50px;
+}
+#contactUs .container h2{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+
+#contactUs .container .photo{
+    width: 50%;
+    float: left;
+}
+#contactUs .container .photo img{
+    width: 90%;
+    border-radius: 30px;
+    
+}
+#contactUs .container .details{
+    width: 40%;
+    float: right;
+}
+#contactUs .container .details i{
+    display: block;
+    margin-top: 20px;
+    color: #b5838d;
+    font-size: 35px;
+}
+
+#contactUs .container .details span{
+   
+    color: #000;
+    font-size: 20px;
+}
+
+
+/*********************** ContactUs************************/
+/*********************** Footer************************/
+#Footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+#Footer span{
+    color: #b5838d;
+    margin-block: 40px;
+}
+
+
+
+
+
+/*********************** Footer************************/
