@@ -88,7 +88,9 @@ body{
     padding-bottom: 10px;
 }
 .container{
-    padding: 90px;
+    width: 80%;
+    margin: auto;
+    padding-block: 40px;
 
 }
 
